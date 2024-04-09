@@ -30,17 +30,19 @@ function PackingList() {
   return (
     <div className="list">
       <ul>
-        {/* hier kommt das .map */}
+        {initialItems.map((item) => (
+          <Item item={item} key={item.id} />
+        ))}
       </ul>
     </div>
   );
 }
 
-function Item() {
+function Item({ item }) {
   return (
     <li>
-      <span> {/* Hier kommt das style */}
-        
+      <span style={item.packed ? { textDecoration: "line-through" } : {}}>
+        {item.quantity} {item.description}
       </span>
       <button>❌</button>
     </li>
