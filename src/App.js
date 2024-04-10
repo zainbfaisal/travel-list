@@ -20,13 +20,27 @@ function Logo() {
 }
 
 function Form() {
+  
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
   return (
-    <div className="add-form">
+    <form className="add-form" onSubmit={handleSubmit}>
       <h3>What do you need for your Trip? 💫</h3>
-      {/* Hier kommt select, option, itirate, prevent formm submission */}
-    </div>
+      <select>
+        {Array.from({ length: 20 }, (_, i) => i + 1).map((num) => (
+          <option value={num} key={num}>
+            {num}
+          </option>
+        ))}
+      </select>
+      <input type="text" placeholder="Add Item..." />
+      <button>Add</button>
+    </form>
   );
 }
+
 function PackingList() {
   return (
     <div className="list">
