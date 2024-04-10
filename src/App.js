@@ -20,7 +20,8 @@ function Logo() {
 }
 
 function Form() {
-  
+  // Du muss irgendwie es schaffen dass HTML nicht das kontrolle hat sonder React auch genannt als Controlled Elements
+
   function handleSubmit(e) {
     e.preventDefault();
   }
@@ -35,7 +36,7 @@ function Form() {
           </option>
         ))}
       </select>
-      <input type="text" placeholder="Add Item..." />
+      <input type="text" placeholder="Add Item..." /> {/* Hier kommem sachen*/}
       <button>Add</button>
     </form>
   );
