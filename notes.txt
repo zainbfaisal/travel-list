@@ -1,0 +1,18 @@
+Controlled Elements OMG 😱😱😱😱😱
+
+
+1. React muss den DOM Kontrollieren, anfang Form muss useState
+
+2. in den Input weiter machen und den Fehler in den Components DEV Tool nachsehen 
+
+3. 1 & 2 in den Select auch benutzen 
+
+4. In den Components DEV Tool ist ein Bug in den Form, fixe es
+
+5. die Sachen müssen ja submitted werden
+
+6. console.log() mit den Sachen Submitten
+
+7. Falls kein Item dann sollte das Form nicht submitten werden
+
+8. Nachdem alles Submitted würde dann soll es züruckgesetzt werden.
