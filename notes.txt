@@ -1,4 +1,0 @@
-1. in den Parent Component den State declaren
-2. ein Function erstellem in dem er den alten und den neuen Array zusammenfügt
-3. die Props declaren in den Components
-4. in den Form & Packinglist alles declaren und desctricter
